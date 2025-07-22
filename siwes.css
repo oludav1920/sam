@@ -1,0 +1,22 @@
+
+*{
+    color: yellow;
+}
+div{
+    color: blue;
+}
+div~a{
+    color: indigo;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: blue;
+}
+div:aft{
+    color: brown;
+}

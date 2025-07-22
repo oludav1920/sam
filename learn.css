@@ -1,23 +1,4 @@
-#sam{
-    text-decoration-line: line-through;
-    text-decoration-color: blue;
-    text-decoration-style: dashed;
-    text-decoration-thickness: 1px;
-    text-transform: capitalize;
-    direction: ltr;
-    text-indent: 20px;
-    letter-spacing: 10px;
-    word-spacing: 20px;
-    text-shadow: 10px;
-    color: blueviolet;
-}
-.ema{
-    color: blueviolet;
-    background-color: brown;
-}
-/*{
-    background-color: blue;
-}*/
+
 body{
     background-image: url("imageod1.jpg");
     
