@@ -1,9 +1,24 @@
 
 *{
-    color: yellow;
+    color: black;
 }
 div{
     color: blue;
+}
+.do{
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-size: 10%;
+    cursor: move;
+}
+ul{
+    list-style-type: decimal;
+    list-style-position: outside;
+    display: flex;
+    justify-content: space-around;
+    
 }
 div~a{
     color: indigo;

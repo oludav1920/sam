@@ -1,9 +1,5 @@
 
-body{
-    background-image: url("imageod1.jpg");
-    
-    background-attachment: fixed;
-}
+
 form{
     background-color: red;
     width: 300px;
@@ -16,6 +12,21 @@ form{
 }
 form input {
     color: red;
+}
+#trademenu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#tablemenu{
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+#em{
+    position: fixed;
+    top: 2;
+    z-index: 2;
 }
 div{
     text-decoration-line: overline;
