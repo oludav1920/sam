@@ -48,13 +48,41 @@ a :visited{
     border-left: none;
     border-right: none;
 }
-@media (max-width: 700px) and (min-width:400px){
+.first{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.second{
+    display: none;
+    list-style: none;
+}
+
+.me:hover .second{
+    display: block;
+}
+@media (max-width: 600px) and (min-width:200px){
     /*{
         background-color: brown ;
 }*/
     body{
     background-color: brown;
     background-image: conic-gradient(red, blue, green, yellow);
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.second{
+    display: none;
+}
+
+.me:hover .second{
+    display: block;
 }
 }
 
