@@ -13,6 +13,7 @@
     width: 25%;
     background-color: blue;
     display: flex;
+    justify-content: space-around;
 }
 .img{
     max-width: 90%;
@@ -26,15 +27,35 @@
 .re{
     color: aliceblue;
 }
-.div{
-    text-align: center;
-    background-color: blue;
-    color: white;
-    width: 50%;
-    margin-left: 25%;
-    
-}
 .bu{
     border-radius: 30px;
-    margin-top: 30px;
+}
+
+/*reg*/
+.body{
+    background-color: blue;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.div{
+    background-color: aliceblue;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 20px;
+    height: 500px;
+}
+.lg{
+    margin-left: 40%;
+    font-size: xx-large;
+}
+.lab{}
+.inp{
+    margin-left: 20%;
+    max-width: 60%;
+}
+.bot{
+    background-color: blue;
+    color: aliceblue;
 }
