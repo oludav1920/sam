@@ -7,22 +7,94 @@
     <link rel="stylesheet" href="siwes.css"/>
 </head>
 <body class="do">
-   <div> BACKGROUND REPEAT
+   <div id="div"> BACKGROUND REPEAT
 Is use to repeat an image either vertically or horizontally.<br/>
 (repeat-y) is use to repeat the background vertically.<br/>
 (repeat-x) is use to repeat th background horizontally.<br/>
 (no-repeat) is used  to set the exact size of the background used.<br/></div>
-
+<ul id="ul">
+    <li id="li">Home</li><hr>
+    <li id="li">About</li><hr>
+    <li id="li">Contact</li><hr>
+    <li id="li">Setting</li><hr>
+</ul>
 <div>
     <a>God is great</a>
-    <em>All the time</em>
+    <em id="an">All the time</em>
 </div>
+<button class="bt">login</button>
+<button class="btn">Reg</button>
+<p class="ov">overflow</p>
 <a href="https://facebook.com">Click here</a>
 <ul><li>gdhzf</li>
 <li>hvikjx</li>
 <li>hfvjckx</li>
 <li>hfjh</li>
 <li>xuvoi</li></ul>
+<div id="fl" class="fo"><div>home</div><div>contact</div><div>about</div><div>login</div></div>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem voluptas blanditiis aperiam nulla facilis, doloribus, repudiandae enim culpa consequatur voluptatibus ex ut quas nihil quam necessitatibus perspiciatis laboriosam! Iusto earum, accusamus ullam dignissimos molestias commodi neque explicabo repellat repellendus corporis illo omnis, doloremque iure corrupti a. Explicabo hic atque delectus quisquam repellendus. Quidem tempora eum similique excepturi unde quisquam magnam reiciendis eligendi itaque rerum. Quam, ipsa iste. Laborum error alias minima? Ipsa recusandae, ipsum ea quod adipisci atque quisquam veritatis tempora ullam sit exercitationem nobis quas inventore suscipit autem aut eaque nesciunt iure aspernatur perferendis, vel delectus magni quos sequi? Similique odio nostrum rem at blanditiis corporis id enim, cumque itaque consequatur perferendis doloremque, optio veritatis necessitatibus facilis impedit eligendi quasi? Quas, quisquam? Delectus, quasi. Eveniet facere fugiat, illum at dolorem exercitationem? Molestias et maxime natus, corrupti vitae magnam vel exercitationem quae quibusdam explicabo, aperiam rem perferendis ex, voluptate fugit quam expedita facere incidunt voluptates accusantium nesciunt perspiciatis repellendus doloremque non! Eaque et nam cumque ut aspernatur, deleniti, quia repellendus voluptatibus quas esse consectetur asperiores nihil animi optio laboriosam illo. Quaerat fugiat atque facilis. Placeat vero reprehenderit modi aspernatur a soluta cumque quisquam, porro recusandae, sint optio alias, corrupti molestiae. Labore sed architecto atque corrupti accusamus laudantium molestiae, unde velit voluptatum inventore! Suscipit voluptatem eum provident. Ipsa quisquam ex et maiores suscipit nihil eos! Laudantium asperiores deleniti repellendus, distinctio, voluptas officia et animi impedit commodi mollitia quas accusamus voluptatum, rerum totam fugit rem molestiae minima minus. Cum porro minima quos omnis, quia molestiae libero enim distinctio pariatur delectus officiis officia consectetur. Tenetur libero nisi odio voluptate fuga est ducimus obcaecati inventore, saepe vero recusandae eos sed temporibus deserunt, repudiandae vitae veritatis accusantium doloremque esse non! Omnis provident tempora nisi alias repellat, ipsum nostrum, dolorem in quam eos veritatis at nobis possimus libero veniam totam, ab mollitia illo voluptas corporis? Consectetur non quam sed dolore, explicabo accusamus vero voluptatum, labore perferendis magnam quo, suscipit officiis rerum illum quae quibusdam. Ipsam accusantium delectus vel ab sint, nostrum suscipit, similique ratione inventore ex voluptates modi eos totam quam reiciendis. Consectetur iste totam esse sed sint id. At eius iste consequatur officiis distinctio porro autem doloremque nisi laboriosam, voluptatum rerum, voluptates ipsa? Libero quaerat iste, nisi nobis culpa dolorem, voluptatem quis architecto aspernatur quidem dignissimos magnam vero, ea ratione reiciendis. Ipsam, libero aut. Architecto, assumenda repellat. Dolor maiores eos possimus eius quidem et, ipsum ullam pariatur reprehenderit perferendis laudantium accusamus consequuntur at cumque nihil, nisi dolorem quos aspernatur. Aut, asperiores ipsam aperiam id, aspernatur nam corporis alias quisquam quos illum ut quis iure, facere suscipit sed omnis explicabo sint. Enim voluptatem molestiae iure dolore labore blanditiis rerum illum hic quisquam error at incidunt atque, dicta perferendis iste nostrum veritatis quis, in iusto nemo. Neque voluptatum, consectetur culpa aliquam enim minus. Tempore pariatur eius possimus explicabo quae molestias neque tenetur error, ad laborum magnam, atque nesciunt officiis itaque. Unde nesciunt molestias suscipit, repudiandae necessitatibus magni ab architecto tenetur sunt iusto optio atque! Ipsa, facilis repellendus.
+<style>
+    body{
+        overflow-y: visible;
+    }
+    /*#ul{
+        list-style-type: none;
+        background-color: red;
+        display: inline-block;
+        text-align: left;
+        line-height: 20px;
+        position: fixed;
+        height: 100%;
+        min-height: 100%;
+    }*/
+    #li{
+        margin-left: -70%;
+    }
+    #an{
+        width: 400px;
+        animation-name: olu;
+        animation-duration: 6s;
+        animation-timing-function: ease;
+        animation-delay: 3s;
+        animation-iteration-count: 10;
+        animation-play-state: running;
+        animation-fill-mode: both;
+    }
+    @keyframes olu{
+        0%{color: green;}
+        20%{color: blue;}
+        40%{color: purple;}
+        100%{color: red;}
+    }
+    #div{
+        float: right;
+    }
+    #fl{
+        display: flex;
+        min-width: 100%;
+        flex-flow: row wrap;
+        align-content: center;
+        align-items: stretch;
+        justify-content: space-between;
+        flex-grow: 4;
+        order: 2;
 
+    }
+    .fo{
+        display: flex;
+        justify-content: space-around
+        !important;
+    }
+    .btn{
+        transform: rotate x(180deg);
+        
+    }
+    .bt:hover{
+        background-color: aqua;
+        transition:5s ease 10s;
+        box-shadow: 0 0 10px blue;
+    }
+</style>
 </body>
+
 </html>

@@ -13,6 +13,9 @@ div{
     font-size: 10%;
     cursor: move;
 }
+.ov{
+    overflow-y: scroll;
+}
 ul{
     list-style-type: decimal;
     list-style-position: outside;
